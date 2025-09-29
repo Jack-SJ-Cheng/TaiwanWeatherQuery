@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="82.72"
+   viewBox="0 0 95.07 82.72"
+   width="95.07"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="cloudyThunder.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.852998"
+     inkscape:cx="47.669153"
+     inkscape:cy="41.360001"
+     inkscape:window-width="1712"
+     inkscape:window-height="978"
+     inkscape:window-x="0"
+     inkscape:window-y="39"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7" />
+  <path
+     d="m75.26 19.23c-.58 0-1.17 0-1.75.07a19.78 19.78 0 0 0 -18.75-13.49 32.79 32.79 0 0 0 -3.42.19 24.52 24.52 0 0 0 -16.17-6c-13 0-23.62 9.28-25.88 22.35-5.63 3.59-9.29 9.56-9.29 15.4a18.73 18.73 0 0 0 18.9 18.51h56.36c10.74 0 19.81-8.47 19.81-18.51s-9.07-18.52-19.81-18.52z"
+     fill="#999"
+     id="path1" />
+  <path
+     d="m87.5 46.13a24.27 24.27 0 0 1 -4.13 6.07 17.27 17.27 0 0 0 7.9-7.94c3.84-8.08.09-17.41-8.36-21.48 6.72 4.67 8.85 14.38 4.59 23.35z"
+     fill="#777"
+     fill-rule="evenodd"
+     id="path2" />
+  <path
+     d="m 42.258474,54.172543 h 13.79 l -5.61,9.22 h 5.79 l -11.88,15.33 2.36,-9.13 h -11.11 z"
+     fill="#ffe41f"
+     id="path7" />
+</svg>
