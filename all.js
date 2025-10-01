@@ -55,25 +55,25 @@ function render(){
             `<li class="col-6 card weather text-center">
                 <img src="./img/sun.svg" class="weather-icon px-5 pt-3 card-img-top" alt="天氣示意圖">
                 <div class="card-body display-4">
-                    ${targetData[0].WeatherElement.Weather}
+                    ${targetData[0].WeatherElement.Weather == -99? '測站維護中':targetData[0].WeatherElement.Weather}
                 </div>
             </li>
             <li class="col-6 card temperature text-center">
                 <img src="./img/temperature.png" class="temperature-icon px-5 pt-3 card-img-top" alt="溫度計圖示">
                 <div class="card-body display-4">
-                    ${targetData[0].WeatherElement.AirTemperature}℃
+                    ${targetData[0].WeatherElement.AirTemperature == -99? '測站維護中':targetData[0].WeatherElement.AirTemperature}℃
                 </div>
             </li>
             <li class="col-6 card humidity text-center">
                 <img src="./img/humidity.png" class="humidity-icon px-5 pt-3 card-img-top" alt="濕度圖示">
                 <div class="card-body display-4">
-                    ${targetData[0].WeatherElement.RelativeHumidity}%
+                    ${targetData[0].WeatherElement.RelativeHumidity == -99? '測站維護中':targetData[0].WeatherElement.RelativeHumidity}%
                 </div>
             </li>
             <li class="col-6 card windy  text-center">
                 <img src="./img/windy.png" class="windy-icon px-5 pt-3 card-img-top" alt="風速圖示">
                 <div class="card-body display-4">
-                    ${targetData[0].WeatherElement.WindSpeed}km/hr
+                    ${targetData[0].WeatherElement.WindSpeed == -99? '測站維護中':targetData[0].WeatherElement.WindSpeed}km/hr
                 </div>
             </li>`;
     const weather = getElement('.weather-icon');
