@@ -1,5 +1,5 @@
 const base_URL = "https://opendata.cwa.gov.tw/api";
-const key = API_KEY;
+const key = window.APP_CONFIG?.API_KEY || '';
 let obj = {
     params: {
         "Authorization": key,
